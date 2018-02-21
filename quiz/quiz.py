@@ -18,7 +18,7 @@ def ask_questions():
     for i, text in enumerate(lines):
         if i%2 == 0:
             questions.append(text)
-        else:
+        else: 
             answers.append(text)
     
     number_of_questions = len(questions)
